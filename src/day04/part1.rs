@@ -78,7 +78,7 @@ fn mark_on_board(draw: &i32, board: &[[i32; 5]; 5], marks: &mut [[bool; 5]; 5]) 
     None
 }
 
-fn calc_score(board: &[[i32; 5]; 5], marks: &mut [[bool; 5]; 5]) -> i32 {
+fn calc_score(board: &[[i32; 5]; 5], marks: &[[bool; 5]; 5]) -> i32 {
     let mut score = 0;
     for i in 0..5 {
         for j in 0..5 {
