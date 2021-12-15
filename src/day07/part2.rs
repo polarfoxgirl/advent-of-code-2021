@@ -2,7 +2,7 @@ use std::fs;
 
 #[allow(dead_code)]
 pub fn solve() {
-    let mut crabs = read_input(&String::from("src\\day07\\inputs\\input.txt"));
+    let crabs = read_input(&String::from("src\\day07\\inputs\\input.txt"));
     println!("Input count: {}", crabs.len());
 
     crabs.sort();

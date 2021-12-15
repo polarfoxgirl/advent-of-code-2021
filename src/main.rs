@@ -1,7 +1,7 @@
 extern crate regex;
 
-mod day07;
+mod day08;
 
 fn main() {
-    day07::part2::solve()
+    day08::part2::solve()
 }
